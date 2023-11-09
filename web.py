@@ -9,7 +9,7 @@ def index():
 
 
 @app.route("/homepage")
-def course():
+def homepage():
     return render_template("homepage.html")
 
 

@@ -8,9 +8,9 @@ def index():
     return homepage
 
 
-@app.route("/aboutme")
-def course():
-    return render_template("aboutme.html")
+@app.route("/homepage")
+def homepage():
+    return render_template("homepage.html")
 
 
 
