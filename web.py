@@ -8,7 +8,7 @@ def index():
     return homepage
 
 
-@app.route("/MIS/personal-webpage")
+@app.route("/aboutme")
 def course():
     return render_template("aboutme.html")
 
